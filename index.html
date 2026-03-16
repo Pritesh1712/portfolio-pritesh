@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio | AWS Deployed</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo">⚡ MyPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">🚀 Hosted on AWS S3</span>
+      <h1>Hello, I'm <span class="highlight">Pritesh</span></h1>
+      <p class="subtitle">Frontend Developer · Cloud Enthusiast · Problem Solver</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="avatar-ring">
+        <div class="avatar">👨‍💻</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <span class="icon">🎓</span>
+          <h3>Education</h3>
+          <p>B.Tech in Computer Science with a focus on Cloud Computing and Web Technologies.</p>
+        </div>
+        <div class="about-card">
+          <span class="icon">☁️</span>
+          <h3>Cloud Journey</h3>
+          <p>Learning AWS services — S3, EC2, RDS, Lambda — to build scalable applications.</p>
+        </div>
+        <div class="about-card">
+          <span class="icon">🛠️</span>
+          <h3>What I Build</h3>
+          <p>Full-stack web apps, REST APIs, and static sites deployed on the cloud.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section dark">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-pill">HTML5</div>
+        <div class="skill-pill">CSS3</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">Node.js</div>
+        <div class="skill-pill">Express.js</div>
+        <div class="skill-pill">React</div>
+        <div class="skill-pill">Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-tag">Static Site</div>
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio site hosted on AWS S3 with CloudFront CDN for global delivery.</p>
+          <div class="tech-stack">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>S3</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Full Stack</div>
+          <h3>Task Manager App</h3>
+          <p>A CRUD application with Node.js backend deployed on AWS EC2 with Nginx reverse proxy.</p>
+          <div class="tech-stack">
+            <span>Node.js</span><span>Express</span><span>EC2</span><span>Nginx</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Cloud</div>
+          <h3>Image Upload Service</h3>
+          <p>File upload service using AWS S3 SDK with signed URLs and a simple web interface.</p>
+          <div class="tech-stack">
+            <span>Node.js</span><span>S3 SDK</span><span>EC2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark">
+    <div class="container center">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">Have a project in mind or want to collaborate?</p>
+      <div class="contact-cards">
+        <div class="contact-item">📧 Pritesh@example.com</div>
+        <div class="contact-item">💼 linkedin.com/in/Pritesh</div>
+        <div class="contact-item">🐙 github.com/Pritesh</div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
